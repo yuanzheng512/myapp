@@ -6,12 +6,13 @@ import router from './router'
 
 Vue.config.productionTip = false
 import '../bower_components/bootstrap/dist/css/bootstrap.min.css';
+import loading from './components/loading'
+Vue.use(loading);
 /* eslint-disable no-new */
 new Vue({
     el: '#app',
     router,
     components: { App },
-    render: h => h(App),
+    // render: h => h(App),
     template: '<App/>'
 })
-router.push('/about');

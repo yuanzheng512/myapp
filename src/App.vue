@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <!-- <img width="200px" height="150px" src="./assets/logo.png"> -->
+    <loading></loading>
     <div>
       <router-link to="/home">主页</router-link>
       <router-link to="/user">用户</router-link>
