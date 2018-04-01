@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    <img width="200px" height="150px" src="./assets/logo.png">
+    <!-- <img width="200px" height="150px" src="./assets/logo.png"> -->
     <div>
       <router-link to="/home">主页</router-link>
+      <router-link to="/user">用户</router-link>
       <router-link to="/about">About</router-link>
     </div>
     <div>
