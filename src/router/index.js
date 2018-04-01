@@ -13,12 +13,16 @@ export default new VueRouter({
             component: HelloWorld
         },
         {
-            path: 'home',
-            name: 'home',
-            component: Foo
+            path: '*',
+            redirect: '/'
         },
         {
-            path: 'about',
+            path: '/home',
+            name: 'home',
+            component: Home
+        },
+        {
+            path: '/about',
             name: 'about',
             component: Bar
         }
