@@ -2,6 +2,7 @@
 <div>
     <Header @upup="chg" msg="bitch"></Header>
   <h1>{{title}}</h1>
+ 
   <input v-bind:class="{'btn':true, 'btn-danger':true}"  type="button" value="click me" @click="change">
   <ul>
       <li v-for='(val,key) in list' :key="key">{{val}} {{key}}</li>
