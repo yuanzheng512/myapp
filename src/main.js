@@ -7,7 +7,6 @@ import 'element-ui/lib/theme-chalk/index.css';
 import router from './router'
 import store from "./store";
 import { fetch, get } from "./axios/api/api.js";
-import '../bower_components/bootstrap/dist/css/bootstrap.min.css';
 import loading from './components/loading'
 Vue.use(loading);
 Vue.prototype.fetch = fetch;
